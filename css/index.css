@@ -181,6 +181,9 @@ img {
   border-bottom: 2px dashed #C0C0C0;
   position: fixed;
 }
+.main-navigation{
+  z-index: 3;
+}
 .main-navigation .nav-container {
   height: 100%;
   display: flex;
