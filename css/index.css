@@ -181,6 +181,9 @@ img {
   border-bottom: 2px dashed #C0C0C0;
   position: fixed;
 }
+.main-navigation{
+  z-index: 3;
+}
 .main-navigation .nav-container {
   height: 100%;
   display: flex;
@@ -349,4 +352,33 @@ img {
 .home .content-pick .destination .btn:hover {
   background: #FFFFFF;
   color: #17A2B8;
+}
+
+.animation{
+  animation:bounce;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes bounce{
+  0%{
+    transform:translateY(0px);
+  }
+  25%{
+    transform:translateY(-70px);
+  }
+  50%{
+    transform:translateY(0px);
+  }
+  75%{
+    transform:translateY(-35px);
+  }
+  85%{
+    transform:translateY(0px);
+  }
+  92%{
+    transform:translateY(-15px);
+  }
+  100%{
+    transform:translateY(0px);
+  }
 }
